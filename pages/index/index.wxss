@@ -69,3 +69,9 @@
 .content-item .info {
     font-size: 25rpx;
 }
+
+.add {
+    position: fixed;
+    right: 30rpx;
+    bottom: 30rpx;
+}

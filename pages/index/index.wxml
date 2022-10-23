@@ -1,5 +1,8 @@
 <van-tabs color="#2f6be0">
   <van-tab title="推荐">
+    <view class="add">
+      <van-icon name="add" color="#3f6ad8" size="100rpx" />
+    </view>
     <view wx:for="{{content}}" wx:key="index" class="content-item" data-idd="{{index}}" bindtap="goQuestion">
       <view class="user">
         <image src="{{item.feed_source_img}}" />
@@ -23,4 +26,3 @@
     </view>
   </van-tab>
 </van-tabs>
-<van-share-sheet show="{{ showShare }}" title="立即分享给好友" options="{{ options }}" />

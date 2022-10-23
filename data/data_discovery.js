@@ -6,9 +6,6 @@ var discovery = {
   id: 3,
   data: [
     {
-      question_id: 1,
-      answer_id: 3,
-      feed_source_id: 23,
       feed_source_name: "Rebecca1",
       feed_source_info: "WEB前端*想做代码小仙女",
       feed_source_txt: "赞了回答1",
@@ -43,9 +40,6 @@ var discovery = {
       comment_num: "18",
     },
     {
-      question_id: 2,
-      answer_id: 25,
-      feed_source_id: 24,
       feed_source_name: "Alex2",
       feed_source_info: "信“佛”",
       feed_source_txt: "回答了问题2",
