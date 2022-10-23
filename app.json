@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/person/index",
+    "pages/questions/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2f6be0",
+    "navigationBarTitleText": "讨论区",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#626567",
+    "selectedColor": "#626567",
+    "backgroundColor": "#FBFBFB",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-fill.png"
+      },
+      {
+        "pagePath": "pages/person/index",
+        "text": "我的",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me-fill.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib": {
+    "weui": true
+  }
+}

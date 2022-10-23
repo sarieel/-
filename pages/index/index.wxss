@@ -1,0 +1,71 @@
+.hots {
+    width: 690rpx;
+    padding: 25rpx 30rpx;
+    background: #ffffff;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.hots .info {
+    height: 40rpx;
+    font-size: 25rpx;
+}
+
+.hots .info .index {
+    display: inline-block;
+    width: 50rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+    background-color: orange;
+    border-radius: 10rpx;
+    text-align: center;
+    color:white
+}
+
+.hots .info .hot {
+    display: inline-block;
+    margin-left: 15rpx;
+    color: darkgray;
+    line-height: 40rpx;
+}
+
+.hots .title {
+    margin-top: 15rpx;
+    font-size: 30rpx;
+}
+
+.content-item {
+    width: 690rpx;
+    padding: 30rpx;
+    margin-bottom: 6rpx 0;
+    background: #ffffff;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.content-item .user image {
+    float: left;
+    width: 70rpx;
+    height: 70rpx;
+    border-radius: 100%;
+}
+
+.content-item .user text {
+    margin-left: 15rpx;
+    line-height: 70rpx;
+    font-size: 25rpx;
+}
+
+.content-item .title {
+    margin: 10rpx 0;
+    font-size: 28rpx;
+}
+
+.content-item .text {
+    margin-bottom: 10rpx;
+    font-size: 25rpx;
+}
+
+.content-item .info {
+    font-size: 25rpx;
+}

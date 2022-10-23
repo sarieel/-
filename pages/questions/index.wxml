@@ -1,0 +1,25 @@
+<view class="box">
+    <view class="ques">
+        {{content[id].question}}
+        <view class="writer">
+            <image src="{{content[id].feed_source_img}}" />
+            <view class="info">
+                <view>{{content[id].feed_source_name}}</view>
+                <view>{{content[id].feed_source_info}}</view>
+            </view>
+            <button>关注</button>
+        </view>
+    </view>
+    <view class="answ">
+        <text>{{content[id].answer}}</text>
+    </view>
+</view>
+<view class="fixed">
+    <van-grid column-num="5" border="{{false}}">
+        <van-grid-item icon="good-job-o" text="赞同" />
+        <van-grid-item icon="flag-o" text="没有帮助" />
+        <van-grid-item icon="flower-o" text="感谢" />
+        <van-grid-item icon="star-o" text="收藏" />
+        <van-grid-item icon="comment-o" text="评论" />
+    </van-grid>
+</view>

@@ -1,0 +1,16 @@
+<view class="user">
+    <image src="../../images/nologin.png" />
+    <view class="info">
+        <view>微信用户</view>
+        <view>点击查看或编辑主页</view>
+    </view>
+</view>
+<van-cell-group inset>
+    <van-cell is-link title="我的关注" icon="eye" />
+    <van-cell is-link title="我的收藏" icon="star" />
+    <van-cell is-link title="我的草稿" icon="wap-nav" />
+    <van-cell is-link title="最近浏览" icon="column" />
+    <van-cell is-link title="我的书架" icon="graphic" />
+    <van-cell is-link title="我的Live" icon="live" />
+    <van-cell is-link title="我的值乎" icon="gem" />
+</van-cell-group>

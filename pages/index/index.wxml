@@ -1,0 +1,26 @@
+<van-tabs color="#2f6be0">
+  <van-tab title="推荐">
+    <view wx:for="{{content}}" wx:key="index" class="content-item" data-idd="{{index}}" bindtap="goQuestion">
+      <view class="user">
+        <image src="{{item.feed_source_img}}" />
+        <text>{{item.feed_source_name}}</text>
+      </view>
+      <view class="title">{{item.question}}</view>
+      <view class="text">{{item.answer_ctnt}}</view>
+      <view class="info">
+        <text>{{item.good_num}}赞</text>
+        <text>{{item.comment_num}}评论</text>
+      </view>
+    </view>
+  </van-tab>
+  <van-tab title="榜单">
+    <view wx:for="{{hot}}" wx:key="index" class="hots">
+      <view class="info">
+        <text class="index">0{{index+1}}</text>
+        <text class="hot">{{item.hots}}热度</text>
+      </view>
+      <view class="title">{{item.question}}</view>
+    </view>
+  </van-tab>
+</van-tabs>
+<van-share-sheet show="{{ showShare }}" title="立即分享给好友" options="{{ options }}" />

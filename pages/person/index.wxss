@@ -1,0 +1,26 @@
+.user {
+    display: flex;
+    justify-content: center;
+    /* bfc特性 计算高度时包含浮动元素 */
+    overflow: auto;
+    width: 750rpx;
+    margin: 30rpx 0;
+} 
+.user image {
+    width: 180rpx;
+    height: 180rpx;
+}   
+.user .info {
+    height: 180rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30rpx;
+    font-size: 27rpx;
+}
+.user .info view:first-child {
+    color: rgb(87, 87, 87);
+}
+.user .info view:last-child {
+    color: rgb(172, 172, 172);
+}
